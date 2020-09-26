@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+#root, html, body{
+    height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    background-color: whitesmoke;
+
+}
+
+.logo-container{
+    height: 10rem;
+    padding: 0 5%;
+    margin:3% 0;
+    display: flex;
+
+}
