@@ -11,6 +11,7 @@ const App = () => {
     const [newsArticles, setNewsAriticles] = useState([])
     const [activeArticle, setActiveArticle] = useState(-1)
     const classes = useStyles()
+    console.log('d')
     useEffect(() => {
         alanBtn({
             key: alanKey,
